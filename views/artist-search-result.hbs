@@ -1,0 +1,13 @@
+<h1>Search Results</h1>
+{{#each artists}}
+<div>
+{{this.name}}
+</div>
+<div>
+<img src="{{this.images.0.url}}" alt="">
+<a href="{{this.href}}">
+<button type="submit"> View Album </button>
+</a>
+</div>
+
+{{/each}}
